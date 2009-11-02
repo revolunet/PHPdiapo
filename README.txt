@@ -12,4 +12,4 @@ $path="images/diapo1";
 // id du diapo (sera utilisé pour le dom) sans caracteres speciaux 
 $iddiapo="exemple_1";
 $d=new PHPdiapo($path,$iddiapo);`
- 
+  
