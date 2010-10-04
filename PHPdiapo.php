@@ -76,11 +76,14 @@ class PHPDiapo {
 	
 	
 	function write_func(){
+                echo "\r<script type=\"text/javascript\">\r";
+ 
 		static $already_write = false;
-		if (!$already_write)
-		{
-            echo "\r<script type=\"text/javascript\">\r";
+		if ($already_write) {
 
+                }
+                else {
+         
             echo "
 var FRAME_PER_SEC = 20;
 function set_opacity(el, op) {
