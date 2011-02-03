@@ -54,6 +54,7 @@ class PHPDiapo {
 			       $this->images[]="$this->relPath/$file";
 		       }
 		}
+                sort($this->images[]);
 	}
     
 	function write() {
